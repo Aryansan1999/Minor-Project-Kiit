@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,16 +44,15 @@
         </div>
         <div class="Cart-Items">
             <div class="image-box">
-                <img src="chicken.jpg" style="height:120px;" class="img-fluid rounded-circle"/>
+                <img src="south indian/Rava-Uttapam.jpg" style="height:120px;" class="img-fluid rounded-circle" />
             </div>
             <div class="about">
-                <h1 class="title">Apple Juice</h1>
-                <h3 class="subtitle">250ml</h3>
+                <h1 class="title">Pongal</h1>
             </div>
             <div class="counter"></div>
             <div class="prices"></div>
             <div class="prices">
-                <div class="amount">$2.99</div>
+                <div class="amount">₹ 290</div>
                 <div class="save"><u>Save for later</u></div>
                 <div class="remove"><u>Remove</u></div>
             </div>
@@ -62,33 +60,33 @@
         <div style="height:30px;"></div>
         <div class="Cart-Items">
             <div class="image-box">
-                <img src="chicken.jpg" style="height:120px;" class="img-fluid rounded-circle"/>
+                <img src="south indian/idli-with-rice-flour.jpg" style="height:120px;" class="img-fluid rounded-circle" />
             </div>
             <div class="about">
-                <h1 class="title">Apple Juice</h1>
-                <h3 class="subtitle">250ml</h3>
+                <h1 class="title">Idli Rice with rice-flour</h1>
+                
             </div>
             <div class="counter"></div>
             <div class="prices"></div>
             <div class="prices">
-                <div class="amount">$2.99</div>
+                <div class="amount">₹ 310</div>
                 <div class="save"><u>Save for later</u></div>
                 <div class="remove"><u>Remove</u></div>
             </div>
         </div>
+        <div id="outpp"></div>
         <div style="height:30px;"></div>
         <div class="Cart-Items">
             <div class="image-box">
-                <img src="chicken.jpg" style="height:120px;" class="img-fluid rounded-circle"/>
+                <img src="south indian/Rava-Uttapam.jpg" style="height:120px;" class="img-fluid rounded-circle" />
             </div>
             <div class="about">
-                <h1 class="title">Apple Juice</h1>
-                <h3 class="subtitle">250ml</h3>
+                <h1 class="title">Rava Uttapam</h1>
             </div>
             <div class="counter"></div>
             <div class="prices"></div>
             <div class="prices">
-                <div class="amount">$2.99</div>
+                <div class="amount">₹ 330</div>
                 <div class="save"><u>Save for later</u></div>
                 <div class="remove"><u>Remove</u></div>
             </div>
@@ -98,116 +96,13 @@
             <div class="total">
                 <div>
                     <div class="Subtotal">Sub-Total</div>
-                    <div class="items">2 items</div>
+                    <div class="items">3 items</div>
                 </div>
-                <div class="total-amount">$6.18</div>
+                <div class="total-amount">₹930</div>
             </div>
-            <button class="button" onclick=" window.open('details.html','_blank')">Cheakout</button>
-            <!-- <button id="rzp-button1" class="button"> Donate here </button>
-            <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-            <script>
-              var options = {
-                key: "rzp_test_aIfnpuWEudWnID", // Enter the Key ID generated from the Dashboard
-                amount: "5000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
-                currency: "INR",
-                name: "Soumita Biswas",
-                description: "Please lend a Helping hand",
-                handler: function (response) {
-                  if (
-                    typeof response.razorpay_payment_id == "undefined" ||
-                    response.razorpay_payment_id < 1
-                  ) {
-                    swal({
-                      title: "Please try again later!",
-                      icon: "error",
-                      button: "Close",
-                    });
-                  } else {
-                    swal({
-                      title: "Thank You!",
-                      icon: "success",
-                      button: "Close",
-                    });
-                  }
-                },
-                theme: {
-                  color: "#3399cc",
-                },
-              };
-              var rzp1 = new Razorpay(options);
-              document.getElementById("rzp-button1").onclick = function (
-                e
-              ) {
-                rzp1.open();
-                e.preventDefault();
-              };
-            </script> -->
-        </div>
-    </div>
-    <!-- <main>
-        <div class="col" style="padding: 1rem;">
-            <div class="shadow p-3 mb-5 bg-white rounded">
-                <div class="card" style="width:  15rem;">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" class="form-control" id="exampleInputName" aria-describedby="name"
-                                placeholder="Enter Full Name">
-                            <small id="name" class="form-text text-muted">We'll never share your name with
-                                anyone
-                                else</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Enter your phone number</label>
-                            <input type="text" class="form-control" id="exampleInputPhone" aria-describedby="number"
-                                placeholder="Enter phone number">
-                            <small id="phone" class="form-text text-muted">We'll never share your number with
-                                anyone
-                                else</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Email</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Enter Email address">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
-                                anyone
-                                else</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Address</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
+            <button class="button" onclick=" window.open('details.html')">Cheakout</button>
 
-                        <div class="form-group">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                State
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="name">ZIP code</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Enter ZIP code">
-                        </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Save this as my billing
-                                address</label>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        </main> -->
-
-
+<script src="index.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 </body>
-
 </html>

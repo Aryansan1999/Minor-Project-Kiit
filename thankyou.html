@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="dialog.css">
+</head>
+
+<body>
+   <button type="but ton" class="btn btn-primary" onclick="openPopup()">Place
+        Order</button>
+      <div class="popup" id="popup">
+        <img src="tick.png">
+        <h2>Thank You!</h2>
+        <p>Your food will be delivered to your address soon!!</p>
+        <button type="submit">OK</button>
+        
+      </div>
+      <script>
+        let popup = document.getElementById("popup");
+        function openPopup() {
+          popup.classList.add("open-popup");
+        }
+        function closePopup() {
+          popup.classList.remove("open-popup");
+        }
+      </script>
+
+</body>
+
+</html>
